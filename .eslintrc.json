@@ -1,0 +1,26 @@
+{
+  "extends": "@antfu",
+  "rules": {
+    "@typescript-eslint/semi": [
+      "error",
+      "always"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    // "@typescript-eslint/quotes": [
+    //   "error",
+    //   "double"
+    // ],
+    "no-console": "off",
+    "unicorn/prefer-node-protocol": "off",
+    // "no-unused-vars": "off", // or "@typescript-eslint/no-unused-vars": "off",
+    // "unused-imports/no-unused-imports": "warn",
+    // "unused-imports/no-unused-vars": [
+    //   "warn",
+    //   { vars: "all", varsIgnorePattern: "^_", args: "after-used", argsIgnorePattern: "^_" },
+    // ],
+    "@typescript-eslint/consistent-type-definitions": "off"
+  }
+}
